@@ -124,7 +124,8 @@ public class ProceduralSphere : MonoBehaviour
         mesh.RecalculateBounds();
         mesh.Optimize();
 
-        mesh.vertices = Randomize(vertices);
+        // 시간복잡도 매우 높음
+        //mesh.vertices = Randomize(vertices);
     }
 
     public Vector3[] Randomize(Vector3[] verts)
