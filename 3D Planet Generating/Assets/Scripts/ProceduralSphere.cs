@@ -11,7 +11,7 @@ public class ProceduralSphere : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GenerateSphere(5f, 16, 16);
+        GenerateSphere(1f, 10, 10);
     }
 
     // Update is called once per frame
